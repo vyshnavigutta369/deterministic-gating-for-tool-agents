@@ -1,0 +1,20 @@
+# Secrets — never commit API keys
+*-api-key
+*api_key*
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Run outputs / logs from sweep scripts
+outputs/
+*.out.json
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

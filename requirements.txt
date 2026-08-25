@@ -1,0 +1,14 @@
+# Core dependencies
+openai>=1.0.0
+anthropic>=0.30.0
+httpx>=0.24.0
+pyyaml>=6.0
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+requests>=2.31.0
+pillow>=10.0.0
+scipy>=1.10.0
+
+# PDDL Logistics domain (Appendix A.2.3 / A.3)
+pyperplan>=2.1
+
