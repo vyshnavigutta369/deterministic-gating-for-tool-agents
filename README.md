@@ -157,7 +157,14 @@ Conditions with zero unsafe executions are reported with an exact one-sided Clop
 ## Citation
 
 ```bibtex
-<FILL: camera-ready citation>
+@inproceedings{gutta2026deterministic,
+  title     = {Deterministic vs. Model-Based Graders for Tool-Using Agents:
+               How Much Exposure a Safety Comparison Needs},
+  author    = {Gutta, Vyshnavi},
+  booktitle = {NeurIPS 2026 Workshop on Evaluating Interactive Agents (IAEval)},
+  year      = {2026},
+  url       = {https://openreview.net/forum?id=KVwuJRAd1u}
+}
 ```
 
 Primary environment:
@@ -173,4 +180,4 @@ Primary environment:
 
 ## License
 
-MIT (see `LICENSE`). CostBench, BFCL and PDDL Logistics / `pyperplan` are used under their own public licenses and are not relicensed here; see `NOTICE.md`.
+MIT (see `LICENSE`), applying to the code in this repository **excluding** `env/` and `bfcl/vendor/`, which are third-party components vendored unmodified. CostBench, BFCL and PDDL Logistics / `pyperplan` remain under their own licenses and are not relicensed here; see `NOTICE.md`.
